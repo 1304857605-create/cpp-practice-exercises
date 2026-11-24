@@ -1,4 +1,31 @@
-hello pioneer
-this is on test branch
-this line is on test branch
-this is on test branch
+# C++ 基础训练 · 按章节组织的语法与类设计练习
+
+华南师范大学人工智能学院 C++ 程序设计课程的练习归档。按章节编号命名，方便回看与复盘；
+代码以清晰可读为目标，不追求工程级封装。
+
+## 文件与对应知识点
+
+| 文件 | 内容 |
+| --- | --- |
+| `1.1_learn_print.cpp` | 输入输出与程序基本结构 |
+| `1.2_data_type.cpp` | 数据类型、类型转换与精度 |
+| `1.3.1_13_multiple.cpp` | 分支与循环：3 与 13 的倍数判定 |
+| `1.3.2_score_switch.cpp` | `switch` 语句：成绩等级换算 |
+| `1.3.3_random.cpp` | 随机数生成与种子设置 |
+| `1.3.4_fibonacci_game.cpp` | 流程控制综合：斐波那契小游戏 |
+| `1.4.1_add_function.cpp` | 函数定义、参数传递与返回值 |
+| `1.5_Ball_class.cpp` | 类与对象：Ball 类的封装与成员函数 |
+
+## 编译运行
+
+需要支持 C++17 的编译器（g++ / clang++ / MSVC）：
+
+```bash
+g++ -std=c++17 1.5_Ball_class.cpp -o ball && ./ball
+```
+
+也可以直接用 Visual Studio 打开单个 `.cpp` 文件编译运行。
+
+## 说明
+
+仓库只收录练习代码，不含课程作业的完整工程；后续会补充常见数据结构与算法的实现练习。
